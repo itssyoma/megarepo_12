@@ -23,3 +23,13 @@ elif month == "апрель":
         sign = "Овен"
     else:
         sign = "Телец"
+elif month == "май":
+    if day < 21:
+        sign = "Телец"
+    else:
+        sign = "Близнецы"
+elif month == "июнь":
+    if day < 21:
+        sign = "Близнецы"
+    else:
+        sign = "Рак"
