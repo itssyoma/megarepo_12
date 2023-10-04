@@ -53,3 +53,13 @@ elif month == "октябрь":
         sign = "Весы"
     else:
         sign = "Скорпион"
+elif month == "ноябрь":
+    if day < 22:
+        sign = "Скорпион"
+    else:
+        sign = "Стрелец"
+elif month == "декабрь":
+    if day < 22:
+        sign = "Стрелец"
+    else:
+        sign = "Козерог"
